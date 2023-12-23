@@ -5,6 +5,11 @@ import subprocess
 
 import signal
 import RPi.GPIO as GPIO
+a = str(random.randint(1,34))
+b  = "\npython3 image.py "
+c = b + a +".jpg"
+print(c)
+os.system(c)
 
 print("""buttons.py - Detect which button has been pressed
 
